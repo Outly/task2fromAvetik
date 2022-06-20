@@ -1,0 +1,36 @@
+
+.circle {
+    width: 500px;
+    height: 500px;
+    background: #32CD32;
+    border-radius: 50%;
+    position: absolute;
+}
+.packman {
+    width: 0;
+    height: 0;
+    border-right: 250px solid transparent;
+    border-top: 250px solid green;
+    border-left: 250px solid green;
+    border-bottom: 250px solid green;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+    position: absolute;
+}
+.circle2 {
+    width: 400px;
+    height: 400px;
+    background: #90EE90;
+    border-radius: 50%;
+    position: absolute;
+    left: 55px;
+    top: 55px;
+}
+.text {
+    position: absolute;
+    left: 130px;
+    top: 40px;
+    font-size: 140px
+}
